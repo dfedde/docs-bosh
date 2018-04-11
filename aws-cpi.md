@@ -262,6 +262,7 @@ The subnet ID 'subnet-c3051fad' does not exist
 ```
 
 Make sure that the `region` specified in the global CPI configuration matches the region where your specified subnet resides.
+Also, Make sure that the IAM user specified has  nessasary permissions. See [IAM instance profiles errors](aws-iam-instance-profiles.md#errors).
 
 ```
 Signature expired: 20141106T010406Z is now earlier than 20141106T011252Z (20141106T011752Z - 5 min.)
